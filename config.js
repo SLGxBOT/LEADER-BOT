@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/FfBybSI.jpg
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '𝐋𝐄𝐀𝐃𝐄𝐑 𝐁𝐎𝐓' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'SLGxBOT' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  sessionName:  process.env.SESSION_ID === undefined ? 'Suhail;;;MaydayRally' : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'SLGxBOT' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'PoorNa' : process.env.PACK_INFO.split(";")[1],
