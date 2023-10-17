@@ -1,12 +1,12 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : LEADER-BOT
+ * @author : @SLGxBOT <https://github.com/SLGxBOT>
+ * @description : LEADER,A Multi-functional whatsapp bot.
+ * @version 0.0.1
  **/
 
 const axios = require('axios')
@@ -16,7 +16,7 @@ const { exec } = require('child_process')
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
 
     //---------------------------------------------------------------------------
-    cmd({
+    Leader.cmd({
         pattern: "photo",
         desc: "Makes photo of replied sticker.",
         category: "converter",
@@ -49,7 +49,7 @@ if (mime =="imageMessage" || mime =="stickerMessage")
 )
 //---------------------------------------------------------------------------
 
-cmd({
+Leader.cmd({
          pattern: "vv",
          alias : ['viewonce','retrive'],
          desc: "Flips given text.",
@@ -103,7 +103,7 @@ else if(citel.quoted.message.videoMessage )
 else return citel.reply("```This is Not A ViewOnce Message```")
 
 })    //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "quotely",
             desc: "Makes Sticker of quoted text.",
             alias: ["q"],
@@ -157,11 +157,11 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 Secktor',
+            use: 'Leader',
             react: "✅",
             filename: __filename
         },
@@ -170,7 +170,7 @@ cmd({
                 let text = tiny(
                     "Fancy text generator\n\nExample: .fancy 32 Secktor\n\n"
                 );
-                listall("Secktor Bot").forEach((txt, num) => {
+                listall("Leader Bot").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
@@ -182,7 +182,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "tiny",
             desc: "Makes url tiny.",
             category: "converter",
@@ -202,7 +202,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-    cmd({
+    Leader.cmd({
         pattern: "circle",
         alias: ["circlestic","circlesticker","cs"],
         desc: "Makes sticker of replied image/video.",
@@ -234,7 +234,7 @@ filename: __filename,
     }
 )
 //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
         pattern: "crop",
         alias: ["cropstic","csticker","cropsticker"],
         desc: "Makes sticker of replied image/video.",
@@ -266,7 +266,7 @@ filename: __filename,
     }
 )
 //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
         pattern: "round",
         alias: ["roundstic","roundsticker"],
         desc: "Makes sticker of replied image/video.",
@@ -297,7 +297,7 @@ filename: __filename,
 
     }
 )
-cmd({
+Leader.cmd({
     pattern: "toaudio",
     alias:['mp3','tomp3'],
     desc: "changes type to audio.",
