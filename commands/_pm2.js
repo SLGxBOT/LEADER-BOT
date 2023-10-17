@@ -11,7 +11,7 @@
 
 //---------------------------------------------------------------------------
 const {cmd,tlang,sleep} = require('../lib')
-cmd({
+Leader.cmd({
         pattern: "restart",
         desc: "To restart bot",
         category: "tools",
