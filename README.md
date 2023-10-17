@@ -50,7 +50,7 @@ mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ## Koyeb Deployment Method
 5. ***[Deploy on Koyeb](https://secktorub-b34f1c3c60d3.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
 
-6. ***Also Deploy on [Replit]( https://repl.it/github/SLGxBOT/LEADER-BOT)***
+6. ***[![Run on Repl.it](https://replit.com/badge/github/SLGxBOT/LEADER-BOT)](https://replit.com/new/github/SLGxBOT/LEADER-BOT)***
 
 If ***RUN*** Doesn't work, paste these commands in repl shell
 
