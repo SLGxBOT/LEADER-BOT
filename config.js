@@ -8,11 +8,11 @@ global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1sm
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
 global.github = 'https://github.com/SamPandey001/Secktor-Md'
-global.location = 'Sultanpur IN'
+global.location = 'SRILANKA NEGOMBO '
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '919628516236'
-global.devs = '919628516236';
-global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || '94742657120'
+global.devs = '94742657120';
+global.website = 'https://github.com/SLGxBOT/LEADER-BOT' //wa.me/+94742657120
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨' : process.env.BOT_NAME,
