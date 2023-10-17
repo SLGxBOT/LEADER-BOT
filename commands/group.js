@@ -168,9 +168,9 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
+══✪〘   *Tag All | NEW MSG*   〙✪══
 
-➲ *Message :* ${text ? text : "blank"}\n\n
+➲ *Message :* ${text ? text : "SLGxLEADER"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
 `
         for (let mem of participants) {
