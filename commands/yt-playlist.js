@@ -1,6 +1,6 @@
 const { tlang, cmd, sleep, getBuffer, prefix, Config } = require('../lib')
-const ytdl = require('ytdl-secktor')
-const yts = require('secktor-pack')
+const ytdl = require('ytdl-leader')
+const yts = require('leader-pack')
 const fs = require('fs')
 var videotime = 60000 // 1000 min
 var dlsize = 250 // 250mb
@@ -50,7 +50,7 @@ yts( opts, async function ( err, playlist ) {
                 let fileSizeInBytes = stats.size;
                 let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
                 if (fileSizeInMegabytes <= dlsize) {
-                    let yts = require("secktor-pack");
+                    let yts = require("leader-pack");
                     let search = await yts(text);
                     let buttonMessage = {
                         video: fs.readFileSync(`./${randomName}`),
@@ -66,8 +66,8 @@ yts( opts, async function ( err, playlist ) {
                                 thumbnail: log0,
                                 renderLargerThumbnail: true,
                                 mediaType: 2,
-                                mediaUrl: 'https://github.com/SamPandey001/Secktor-Md',
-                                sourceUrl: 'https://github.com/SamPandey001/Secktor-Md'
+                                mediaUrl: 'https://github.com/SLGxBOT/LEADER-BOT',
+                                sourceUrl: 'https://github.com/SLGxBOT/LEADER-BOT'
                             }
                         }
                     }
