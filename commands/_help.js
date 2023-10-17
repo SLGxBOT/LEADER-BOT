@@ -1,12 +1,12 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : LEADER-BOT
+ * @author : @SLGxBOT <https://github.com/SLGxBOT>
+ * @description : LEADER,A Multi-functional whatsapp bot.
+ * @version 0.0.1
  **/
 
 const os = require('os')
@@ -19,7 +19,7 @@ const readmore = long.repeat(4001)
 const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
-Secktor.cmd({
+Leader.cmd({
             pattern: "help",
             alias: ["menu"],
             desc: "Help list",
@@ -49,9 +49,9 @@ Secktor.cmd({
                 })
                 const time = moment(moment())
                     .format('HH:mm:ss')
-                moment.tz.setDefault('Asia/KOLKATA')
+                moment.tz.setDefault('Asia/NEGOMBO')
                     .locale('id')
-                const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const date = moment.tz('Asia/Negombo').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
@@ -92,7 +92,7 @@ Secktor.cmd({
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+Leader.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general"
@@ -124,7 +124,7 @@ for (let i = 0; i < commands.length; i++)
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+Leader.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
@@ -161,7 +161,7 @@ Secktor.cmd({
     }
 )
 
-Secktor.cmd({
+Leader.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
