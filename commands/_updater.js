@@ -12,7 +12,7 @@ const DB = require('../lib/scraper')
 const { execSync } = require('child_process')
 const { tlang, Config, prefix,cmd } = require('../lib')
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "update",
             desc: "Shows repo\'s refreshed commits.",
             category: "misc",
