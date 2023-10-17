@@ -1,12 +1,12 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : LEADER-BOT
+ * @author : @SLGxBOT <https://github.com/SLGxBOT>
+ * @description : LEADER,A Multi-functional whatsapp bot.
+ * @version 0.0.1
  **/
 
 const { addnote,cmd, sck1, delnote, allnotes, delallnote, tlang, botpic, runtime, prefix, Config ,sleep} = require('../lib')
@@ -48,7 +48,7 @@ cmd({
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'Secktor Session',
+                        title: 'Leader Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -243,13 +243,15 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by POORNA PRIYASANKA.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
-
-*Version:-* _0.0.7_
+*MESSAGE BY OWNER:-* අනුන්ගේ දේවල් නිසා උඹ දුක් විදින්නේ මොකද?
+                     යාලු බලන් ඉන්නේ යන්නද මා පරද්දා? 
+*LEADERBOTOWNER:-*POORNA PRIYASANKA SLG
+*Version:-* _0.0.1_
 *Uptime:-* _${runtime(process.uptime())}_
 *Owner:-* _${Config.ownername}_
 *Branch:-* _${Config.BRANCH}_
