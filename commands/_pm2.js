@@ -6,7 +6,7 @@
  * @project_name : LEADER-BOT
  * @author : @SLGxBOT <https://github.com/SLGxBOT>
  * @description : LEADER,A Multi-functional whatsapp bot.
- * @version 0.0.1
+ * @version 0.0.6
  **/
 
 //---------------------------------------------------------------------------
