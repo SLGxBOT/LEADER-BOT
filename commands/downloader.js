@@ -1,12 +1,12 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : LEADER-BOT
+ * @author : @SLGxBOT <https://github.com/SLGxBOT>
+ * @description : LEADER,A Multi-functional whatsapp bot.
+ * @version 0.0.1
  **/
 
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
@@ -18,7 +18,7 @@ var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
 /*
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "tgs",
             desc: "Downloads telegram stickers.",
             category: "downloader",
@@ -31,7 +31,7 @@ function __lobz(){const H=['R53FWbciV9','reply','rbot_18407','\x5c(\x20*\x5c)','
     )
     */
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "tts",
             desc: "text to speech.",
             category: "downloader",
@@ -59,7 +59,7 @@ cmd({
 
     )
      //---------------------------------------------------------------------------
-     cmd({
+     Leader.cmd({
         pattern: "yts",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
@@ -92,7 +92,7 @@ cmd({
     }
 )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "video",
             desc: "Downloads video from yt.",
             category: "downloader",
@@ -154,7 +154,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "play",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
@@ -192,7 +192,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "ringtone",
             desc: "Downloads ringtone.",
             category: "downloader",
@@ -207,7 +207,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "pint",
             desc: "Downloads image from pinterest.",
             category: "downloader",
@@ -250,7 +250,7 @@ cmd({
             }
         })
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "mediafire",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
@@ -282,7 +282,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
             pattern: "audio",
             alias :['song'],
             desc: "Downloads audio from youtube.",
@@ -346,7 +346,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 
-cmd({
+Leader.cmd({
             pattern: "ytmp4",
             desc: "Downloads video from youtube.",
             category: "downloader",
@@ -414,7 +414,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
         pattern: "ytmp3",
         desc: "Downloads audio by yt link.",
         category: "downloader",
@@ -490,7 +490,7 @@ cmd({
 )
 
   //---------------------------------------------------------------------------
-cmd({
+Leader.cmd({
         pattern: "ytdoc",
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
