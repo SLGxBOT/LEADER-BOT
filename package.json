@@ -53,7 +53,7 @@
                        "@shineiichijo/marika": "^2.0.3",           
                        "translatte": "^3.0.1",
                        "util": "^0.12.4",           
-                       "leader-pack": "latest",
+                       "secktor-pack": "latest",
                        "ytdl-leader": "latest",
                        "pastebin-js": "latest",
                        "fb-info-video":"^1.0.2",
