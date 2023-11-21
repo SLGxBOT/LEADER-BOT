@@ -88,7 +88,7 @@ Copy the JSON down and paste in repl then fill the vars
 
 
 <body>
-	<marquee width= height=100 direction="down"> <b> <i> <font color="lime"> CO </font> </i> </b> </marquee>
+	<marquee width= height=100 direction="down"><b><i><font color="lime">CO</font></i></b></marquee>
 </body>
 
 
